@@ -1,5 +1,26 @@
 class User
 {
+constructor(firstname,lastname,credit)
+{
+this.firstname=firstname
+this.lastname=lastname
+this.credit=credit
 }
-var pandi=new user()
+getFullname()
+{
+    let fullname=`${this.firstname} ${this.lastname} is my fullname`;
+    return fullname;
+}
+editname(newname)
+{
+let myname=newname.split('')
+this.firstname=myname[0]
+this.lastname=myname[1]
 
+}
+}
+let pandi = new User("pandi","nagarajan",34)
+//console.log(pandi);
+//console.log(pandi.getFullname());
+pandi.editname("pandii nagarajan");
+console.log(pandi.getFullname());
