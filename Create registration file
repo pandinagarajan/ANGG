@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+ input
+ {
+   width: 50%;
+ }
+</style>
+</head>
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="row">
+        <h1>welcome to javascript<h1>
+                </div>
+
+    </div>
+  </nav>
+  <h1 class="text-center">Create your account</h1>
+   </div>
+   
+   <div class="col-sm-4 "> \
+   </div>
+   <div class="col-sm-8 ">
+     <label >Username *</label><br>
+         <input value="test" type="text-right size=50" placeholder="" ><br><br>
+         <label >Email address *</label><br>
+         <input type="text-right" placeholder="""><br><br>
+         <label >Password *</label><br>
+         <input type="text-right" placeholder="" ><br><br>
+        
+         <small>Make sure it's at least 15 characters OR at least 8 characters including a number and a lowercase letter. </small><br>
+          <a href="#">Learn more</a><br><br>
+          <button btn-primary>Create</button><br>
+              
+           </div>
+   
+</body>
+</html>
