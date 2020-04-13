@@ -1,0 +1,33 @@
+//HTML view
+
+<body>
+ <label>Enter your amount</label>
+<input type="text" [value]="webpage" name="welcome" id="namee" [(ngmodel)]="profile" placeholder=""/>
+<button class="btn btn-primary" (click)="onclick()">submit</button><br>
+{{profile}}<br>
+<strong [innerhtml]="innerhtmlvalue"> </strong>
+
+
+</body>
+//Component View
+
+import {component} from @angular/core
+@component({
+selector:'user-root',
+templateURL:'./user.component.html'
+
+})
+class propertybinding
+{
+    webpage="how to learn Angular";
+    innerhtmlvalue="<h2> innertmlexample<h2>"
+    Profile;
+
+    onclik()
+    {
+       // Alert("submitted");
+        this.profile="valu change from class"
+
+    }
+}
+
