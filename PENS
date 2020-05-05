@@ -1,0 +1,388 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>  
+<style>
+
+#navhead .navbar-nav li a
+{
+  color: white;
+}
+
+#navhead
+{
+  padding: 0 15px;
+  height: 20px;
+  line-height: 20px;  
+  min-height: 30px;
+  background-color: dimgrey;
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+}
+#first:hover #i
+{
+display:block;
+font-size:small;
+
+
+
+}
+
+#second:hover #ii
+{
+display: block;
+font-size:small;
+font-style:normal;
+
+}
+.dropdown-toggle::after
+{
+
+  display:none;
+ 
+}
+.para
+{
+  
+ color:dimgrey;
+ font-size: small;
+ 
+}
+.card-title
+{
+  color: blue;
+}
+.card1
+{
+
+  height:180px;
+ 
+margin-top:-30px;
+margin-left: 20px;
+margin-bottom: 10px;
+
+padding: 40px;
+
+}
+.small-box img
+{
+  margin-right: 10px;
+}
+.small-box .img-left
+{
+  float: left;
+}
+.callout .callout-right
+{
+  float: right;
+}
+.item
+{
+  margin-top:-30px;
+margin-left: 20px;
+margin-bottom: 10px;
+}
+
+
+</style>
+
+
+</head>
+  <body>
+    
+    <nav class="navbar navbar-expand " id="navhead">
+   <ul class="navbar-nav">
+  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;
+     <li class="nav-item">
+       <a class="nav-link" href="#">Gopenske </a>
+      </li>
+     <li class="nav-item">
+       <a class="nav-link" href="#">Rental </a>
+      </li>
+     <li class="nav-item">
+       <a class ="nav-link" href="#">Lease </a>
+      </li>
+     <li class="nav-item">
+       <a class ="nav-link" href="#">Logistics </a>
+       
+           </li>
+     </ul>
+     <ul class="navbar-nav">
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <li class="nav-item">
+        <a class="nav-link" href="#">Personal/Rental </a></li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">View/Edit Reservation </a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Why Penske</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">United Status</a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Canada</a>
+                <a class="dropdown-item" href="#">Australia</a>
+              </div>
+     </ul>
+
+  </nav>
+  <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+    
+           
+    <div class="collapse navbar-collapse" >
+      <ul class="navbar-nav mr-auto">
+        <li>
+          <h1>Logo</h1>
+        
+        </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <li class="nav-item dropdown" id="first">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="nav-link dropdown-toggle"  style="float:left;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <h3>Trucks</h3>
+          </button>
+          <div class="dropdown-menu" id ="i" aria-labelledby="navbarDropdown" >
+            <a class="dropdown-item" href="#" >test1</a>
+            <a class="dropdown-item" href="#">test2</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">test3</a>
+          </div>
+        </li>
+          <li class="nav-item dropdown" id="second">
+            
+          <a class="nav-link dropdown-toggle"  style="float:left;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <h3>Location</h3>
+          </a>
+          <div class="dropdown-menu"  id ="ii" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Find a Location</a>
+            <a class="dropdown-item" href="#">Become a Track Rental Agent</a>
+          
+          </div>
+        </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li class="nav-item dropdown" id="second">
+            
+          <a class="nav-link dropdown-toggle"  style="float:left;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <h3>Supplies & Services</h3>
+          </a>
+          <div class="dropdown-menu"  id ="ii" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Towing Equpment</a>
+            <a class="dropdown-item" href="#">Moving Boxes & Supplies</a>
+            <a class="dropdown-item" href="#">Self-Storage Rentals</a>
+            <a class="dropdown-item" href="#">Moving Labor</a>
+            <a class="dropdown-item" href="#">The home Depot</a>
+            <a class="dropdown-item" href="#">Shell Fuel Rewards</a>
+            <a class="dropdown-item" href="#">Quicken Loans</a>
+          
+          </div>
+        </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li class="nav-item dropdown" id="second">
+            
+          <a class="nav-link dropdown-toggle"  style="float:left;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <h3>Discounts</h3>
+          </a>
+          <div class="dropdown-menu"  id ="ii" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">One-Way unlimited Mileage</a>
+            <a class="dropdown-item" href="#">Limited Time Offer</a>
+            <a class="dropdown-item" href="#">AAA Discounts</a>
+            <a class="dropdown-item" href="#">Military Discounts</a>
+            <a class="dropdown-item" href="#">College Studnet Discounts</a>
+                     
+          </div>
+        </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <li class="nav-item dropdown" id="second">
+            
+          <a class="nav-link dropdown-toggle"  style="float:left;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <h3>Renting from Pnske
+            </h3>
+          </a>
+          <div class="dropdown-menu"  id ="ii" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#"><B>Moving Tips &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;About Penske Truck Rental</B></a>
+            <a class="dropdown-item" href="#">Plan Your Move 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		FAQ</a>
+            <a class="dropdown-item" href="#">How to Load a Moving Truck &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Coverage</a>
+            <a class="dropdown-item" href="#">Simplify Your Move	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Greener Moving</a>
+            <a class="dropdown-item" href="#">Using a Car Carrier	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Roadside Assistance</a>
+            <a class="dropdown-item" href="#">Using a Tow Dolly &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;		Mission: ABLE</a>
+            <a class="dropdown-item" href="#">Metropolitan Areas	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	Rental News</a>
+            <a class="dropdown-item" href="#"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Move Ahead Blog</a>
+                     
+          </div>
+        </li>
+      </ul>
+    
+    </div>
+  </nav>
+  <div class="container">
+    <div id="image-carousel" class="carousel slide" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li data-target="#image-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#image-carousel" data-slide-to="1"></li>
+        <li data-target="#image-carousel" data-slide-to="2"></li>
+        <li data-target="#image-carousel" data-slide-to="3"></li>
+        <li data-target="#image-carousel" data-slide-to="4"></li>
+        
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="\HTML\asset\5.JPG" alt="" style="width:240%;">
+          <div class="carousel-caption">
+            Consectetur
+          </div>
+        </div>
+    
+        <div class="item">
+          <img class="right" src="\HTML\asset\1.JPG" alt="" style="width:240%;">
+          <div class="carousel-caption">
+            Fringilla Dolor
+          </div>
+        </div>
+    
+        <div class="item">
+          <img src="\HTML\asset\3.JPG" alt=""style="width:240%;">
+          <div class="carousel-caption">
+            Consectetur Amet Egestas
+          </div>
+        </div>
+    
+        <div class="item">
+          <img src="\HTML\asset\4.JPG" alt="" style="width:240%;">
+          <div class="carousel-caption">
+            Sem Sollicitudin Etiam Malesuada
+          </div>
+        </div>
+    
+        <div class="item">
+          <img src="\HTML\asset\5.JPG" alt="" style="width:240%;">
+          <div class="carousel-caption">
+            CVenenatis Malesuada Egestas Mattis Dolor
+          </div>
+        </div>
+    
+      </div>
+    </div>
+  </div>
+    
+  <hr>
+<div class="container">
+  <div class="row">
+    <h2>At Penske Truck Rental, We're Dedicated to Customers and Focused on Quality</h2>
+  </div>
+      <div class="row">
+        <div class="col-sm-4" >
+          <div class="card">
+            <div class="card1">
+          <img src="\HTML\asset\card1.jpg">
+        </div>
+          <div class="card-title">
+            <h3>immeidate track availabilty</h3>
+          </div>
+          <p class="para">
+            Responsive images automatically adjust to fit the size of the screen. Create responsive images by adding an . img-responsive class to the image
+          </p>
+        </div>
+        </div>
+        <div class="col-sm-4" >
+          <div class="card">
+            <div class="card1">
+          <img src="\HTML\asset\card1.jpg">
+        </div>
+          <div class="card-title">
+            <h3>immeidate track availabilty</h3>
+          </div>
+          <p class="para">
+            Responsive images automatically adjust to fit the size of the screen. Create responsive images by adding an . img-responsive class to the image
+          </p>
+        </div>
+        </div>
+        <div class="col-sm-4" >
+          <div class="card">
+            <div class="card1">
+          <img src="\HTML\asset\card1.jpg">
+        </div>
+          <div class="card-title">
+            <h3>immeidate track availabilty</h3>
+          </div>
+          <p class="para">
+            Responsive images automatically adjust to fit the size of the screen. Create responsive images by adding an . img-responsive class to the image
+          </p>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <h2>We're Ready When You Are</h2>
+         
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card">
+              <div class="small-box">
+              
+                <img class="img-left" src="\HTML\asset\card2.jpg">
+                <p class="para"> Lots of options and expert help choosing what's right</p>
+                           
+                          </div>     
+            </div>
+         
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="small-box">
+            
+              <img class="img-left" src="\HTML\asset\card2.jpg">
+              <p class="para"> Lots of options and expert help choosing what's right</p>
+                         
+                        </div>     
+          </div>
+       
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+          <div class="small-box">
+          
+            <img class="img-left" src="\HTML\asset\card2.jpg">
+            <p class="para"> Lots of options and expert help choosing what's right</p>
+                       
+                      </div>     
+        </div>
+     
+    </div>
+      </div>
+      
+
+</div>
+<hr>
+<div class="row">
+  <div class="col-md-6">
+  <div class="row top-border"></div>
+  <div class="callout">
+    <img class="callout-right" src="\HTML\asset\card3.jpg">
+    <p class="para"> ROAD MAP
+    TO YOUR NEW HOME
+    Get a Quote Moving can be complicated. That's why the moving experts at Penske Truck Rental created a road map to help you find the moving supplies and services you need — so you can keep moving forward.</p>
+  </div>
+</div>
+<div class="col-md-6">
+  <div class="row top-border"></div>
+  <div class="callout">
+    <img class="callout-right" src="\HTML\asset\card3.jpg">
+    <p class="para"> ROAD MAP
+    TO YOUR NEW HOME
+    Get a Quote Moving can be complicated. That's why the moving experts at Penske Truck Rental created a road map to help you find the moving supplies and services you need — so you can keep moving forward.</p>
+  </div>
+</div>
+    </div>
+</div>
+
+  </body>
+</html>
+
